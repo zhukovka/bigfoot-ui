@@ -59,6 +59,7 @@ template.innerHTML = `
             height: var(--tw);
             width: var(--th);
             background: transparent;
+            border: none;
         }
     
         /* All the same stuff for IE */
@@ -66,6 +67,7 @@ template.innerHTML = `
             height: var(--tw);
             width: var(--th);
             background: transparent;
+            border: none;
         }
     
     </style>
@@ -76,9 +78,16 @@ template.innerHTML = `
         </div>
     </div>
   `;
+let ShadyCSS = window["ShadyCSS"];
+if (ShadyCSS) {
+    ShadyCSS.prepareTemplate(template, 'hz-range');
+}
 export default class HzRange extends HTMLElement {
     constructor() {
         super();
+        if (ShadyCSS) {
+            ShadyCSS.styleElement(this);
+        }
         this.attachShadow({ mode: 'open' });
         if (this.shadowRoot) {
             this.shadowRoot.appendChild(template.content.cloneNode(true));
@@ -140,4 +149,5 @@ export default class HzRange extends HTMLElement {
         }
     }
 }
+window.customElements.define('hz-range', HzRange);
 //# sourceMappingURL=HzRange.js.map

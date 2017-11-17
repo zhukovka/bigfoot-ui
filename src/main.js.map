@@ -1,1 +1,0 @@
-{"version":3,"file":"main.js","sourceRoot":"","sources":["main.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,cAAc,CAAC;AACnC,MAAM,CAAC,cAAc,CAAC,MAAM,CAAC,UAAU,EAAE,OAAO,CAAC,CAAC","sourcesContent":["import HzRange from \"./HzRange.js\";\nwindow.customElements.define('hz-range', HzRange);"]}
