@@ -3,14 +3,15 @@
 UI kit library of custom elements (web components)
 [demo page](https://zhukovka.github.io/bigfoot-ui/)
 
-### hz-range
-
-Range component
-
 Install
 ```
 npm install bigfoot-ui
 ```
+
+### hz-range
+
+Range component
+
 Usage
 
 - js
