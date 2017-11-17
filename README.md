@@ -1,8 +1,10 @@
-#Bigfoot UI
+# Bigfoot UI
+
 UI kit library of custom elements (web components)
 [demo page](https://zhukovka.github.io/bigfoot-ui/)
 
 ### hz-range
+
 Range component
 
 Install
