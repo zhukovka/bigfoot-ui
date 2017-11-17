@@ -1,11 +1,12 @@
 {
   "name": "bigfoot-ui",
-  "version": "0.0.1-alfa-0.1",
+  "version": "0.0.1-alfa-0.2",
   "description": "UI kit library of custom elements (web components)",
-  "main": "dist/bigfoot-ui.js",
+  "main": "./dist/bigfoot-ui.js",
   "scripts": {
     "start": "http-server",
-    "build": "webpack"
+    "build": "babel webpack",
+    "babel": "babel ./src --out-dir ./dist"
   },
   "author": "zhukovka",
   "license": "ISC",

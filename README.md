@@ -32,7 +32,7 @@ import * as bigfootui from "bigfoot-ui";
     <title>Bigfoot ui</title>
 </head>
 <body>
-<hz-range></hz-range>
+<div id="root"></div>
 <script src="index.js"></script>
 </body>
 </html>
