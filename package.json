@@ -1,0 +1,22 @@
+{
+  "name": "bigfoot-ui-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhukovka/bigfoot-ui/issues"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "bigfoot-ui": "^1.0.0",
+    "webpack": "^3.8.1"
+  }
+}
