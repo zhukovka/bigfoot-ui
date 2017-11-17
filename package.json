@@ -2,7 +2,7 @@
   "name": "zoom-range",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bigfoot-ui.js",
   "scripts": {
     "start": "http-server",
     "build": "webpack"
