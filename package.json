@@ -1,7 +1,7 @@
 {
   "name": "bigfoot-ui",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1-alfa-0.1",
+  "description": "UI kit library of custom elements (web components)",
   "main": "dist/bigfoot-ui.js",
   "scripts": {
     "start": "http-server",
@@ -9,6 +9,12 @@
   },
   "author": "zhukovka",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhukovka/bigfoot-ui.git"
+  },
+  "homepage": "https://zhukovka.github.io/bigfoot-ui",
+  "keywords":["web components", "custom elements"],
   "dependencies": {
     "@webcomponents/custom-elements": "^1.0.6",
     "@webcomponents/shadycss": "^1.1.0",
