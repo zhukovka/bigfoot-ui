@@ -9,6 +9,6 @@ export default class HzRange extends HTMLElement {
     constructor();
     connectedCallback(): void;
     addOnChange(): void;
-    svgRangeTemplate(w: number, h: number): any;
+    svgRangeTemplate(): any;
     render(): void;
 }
